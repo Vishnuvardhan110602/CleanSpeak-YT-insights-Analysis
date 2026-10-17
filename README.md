@@ -27,12 +27,14 @@ Project Goal
 
 The goal of CleanSpeak is to promote safer and more positive digital conversations by automatically identifying toxic content and providing meaningful insights into audience behavior.
 
+
 Steps to Run this repo in local machine
 
 cd CleanSpeak-YT-insights-analysis
 install all the required pip libraries
-
 py -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --upgrade pip
 .\.venv\Scripts\python.exe -m pip install streamlit pandas seaborn matplotlib textblob wordcloud emoji plotly beautifulsoup4 joblib scikit-learn requests pillow
 .\.venv\Scripts\python.exe -m streamlit run app.py
+upload the provided csv files for demo
+
